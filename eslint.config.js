@@ -94,7 +94,7 @@ export default [
     files: ["**/*.{js,jsx,ts,tsx}"],
   },
   {
-    ignores: [".output/*", ".wxt/*"],
+    ignores: [".output/*", ".wxt/*", "playwright-report/*"],
   },
   js.configs.recommended,
   baseConfig,
