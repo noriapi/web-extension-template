@@ -29,7 +29,7 @@
     "@commander-js/extra-typings": "^11.1.0",
     "@eslint/eslintrc": "^3.0.0",
     "@playwright/test": "^1.40.1",
-    "@types/node": "^20.10.8",
+    "@types/node": "^20.11.0",
     "@types/webextension-polyfill": "^0.10.7",
     "@typescript-eslint/eslint-plugin": "^6.18.1",
     "@typescript-eslint/parser": "^6.18.1",
