@@ -23,7 +23,7 @@
     "zip:firefox": "wxt zip -b firefox"
   },
   "dependencies": {
-    "solid-js": "^1.8.11"
+    "solid-js": "^1.8.12"
   },
   "devDependencies": {
     "@commander-js/extra-typings": "^11.1.0",
