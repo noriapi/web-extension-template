@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^2.9.1
     version: 2.9.1(solid-js@1.8.14)(vite@5.0.12)
   wxt:
-    specifier: ^0.15.4
-    version: 0.15.4(@types/node@20.11.16)
+    specifier: ^0.16.4
+    version: 0.16.4(@types/node@20.11.16)
 
 packages:
 
@@ -2529,6 +2529,10 @@ packages:
     resolution: {integrity: sha512-tzcUFauisWKNHaRkN4Wjl/ZA07gENAjFl3J/c480dprkGTg5EQstgaNFqBfUqCq54kZRIEcreTsAgF/m2quD7A==}
     dev: true
 
+  /hookable@5.5.3:
+    resolution: {integrity: sha512-Yc+BQe8SvoXH1643Qez1zqLRmbA5rCL+sSmk6TVos0LWVfNIB7PGncdlId77WzLGSIB5KaWgTaNTs2lNVEI6VQ==}
+    dev: true
+
   /html-entities@2.3.3:
     resolution: {integrity: sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==}
     dev: true
@@ -2615,10 +2619,6 @@ packages:
 
   /immediate@3.0.6:
     resolution: {integrity: sha512-XXOFtyqDjNDAQxVfYxuF7g9Il/IbWmmlQg2MYKOH8ExIT1qg6xc4zyS3HaEEATgs1btfzxq15ciUiY7gjSXRGQ==}
-    dev: true
-
-  /immer@10.0.3:
-    resolution: {integrity: sha512-pwupu3eWfouuaowscykeckFmVTpqbzW+rXFCX8rQLkZzM9ftBmU/++Ra+o+L27mz03zJTlyV4UUr+fdKNffo4A==}
     dev: true
 
   /immutable@4.3.4:
@@ -3770,8 +3770,8 @@ packages:
       - supports-color
     dev: true
 
-  /publish-browser-extension@2.1.0:
-    resolution: {integrity: sha512-OdnhaGTZ5d3PPNh8gUjTvLhrjH4H0lawe+y5gUvGHAt3hVS33FBTt0r/NyP5qgNtN9TM3iHfTduN4GydXiXt8w==}
+  /publish-browser-extension@2.1.1:
+    resolution: {integrity: sha512-WqCnhHXbmiYn4vIbgcyKWVHiOvCoPjjpt3X+hfnU8rlOozU43TURpHUWZlQ0W49LhvJvBRsBfGRQxtRMGhqsxw==}
     engines: {node: '18', pnpm: '8'}
     hasBin: true
     dependencies:
@@ -4845,8 +4845,8 @@ packages:
         optional: true
     dev: true
 
-  /wxt@0.15.4(@types/node@20.11.16):
-    resolution: {integrity: sha512-6M7igLCQpoV3dzxROhRPN3AvwN6dFNzUkxflS/a6rtWtxD4q6WS01mvbvWoYZn45BS1sb8gL4qehsTf4DtrG/g==}
+  /wxt@0.16.4(@types/node@20.11.16):
+    resolution: {integrity: sha512-K5oulsmTsGmnPP+ibgKJBS9BPQlorfk2mOT5dDE7bjBCyJnn5alriGFPl+VtLi3l0Eu2bvbTbXMidODSgXOW5Q==}
     engines: {node: '>=18', pnpm: '>=8'}
     hasBin: true
     dependencies:
@@ -4867,7 +4867,7 @@ packages:
       fs-extra: 11.2.0
       get-port: 7.0.0
       giget: 1.2.1
-      immer: 10.0.3
+      hookable: 5.5.3
       is-wsl: 3.1.0
       jiti: 1.21.0
       json5: 2.2.3
@@ -4879,7 +4879,7 @@ packages:
       ora: 7.0.1
       picocolors: 1.0.0
       prompts: 2.4.2
-      publish-browser-extension: 2.1.0
+      publish-browser-extension: 2.1.1
       rollup-plugin-visualizer: 5.12.0
       unimport: 3.7.1
       vite: 5.0.12(@types/node@20.11.16)
