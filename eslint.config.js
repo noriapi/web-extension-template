@@ -1,18 +1,9 @@
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-import { FlatCompat } from "@eslint/eslintrc";
 import js from "@eslint/js";
-import tsParser from "@typescript-eslint/parser";
 import prettier from "eslint-config-prettier";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import solid from "eslint-plugin-solid/configs/typescript.js";
 import globals from "globals";
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
-const compat = new FlatCompat();
+import tseslint from "typescript-eslint";
 
 /** @type { import("eslint").Linter.FlatConfig } */
 const baseConfig = {
@@ -26,34 +17,17 @@ const baseConfig = {
   },
 };
 
-/** @type { import("eslint").Linter.FlatConfig[] } */
-const tsConfigs = compat.config({
-  overrides: [
-    {
-      files: ["**/*.{ts,tsx}"],
-      extends: ["plugin:@typescript-eslint/recommended"],
-      parser: "@typescript-eslint/parser",
-      plugins: ["@typescript-eslint"],
-    },
-  ],
-});
-
-/** @type { import("eslint").Linter.FlatConfig[] } */
-const srcTsConfigs = compat.config({
-  overrides: [
-    {
-      files: ["src/**/*.{ts,tsx}"],
-      extends: ["plugin:@typescript-eslint/recommended-type-checked"],
-      parser: "@typescript-eslint/parser",
-      plugins: ["@typescript-eslint"],
+const tsConfigs = [
+  ...tseslint.configs.recommendedTypeChecked,
+  {
+    languageOptions: {
       parserOptions: {
-        sourceType: "module",
-        project: "tsconfig.json",
-        tsconfigRootDir: __dirname,
+        project: true,
+        tsconfigRootDir: import.meta.dirname,
       },
     },
-  ],
-});
+  },
+];
 
 /** @type { import("eslint").Linter.FlatConfig } */
 const srcConfig = {
@@ -61,22 +35,10 @@ const srcConfig = {
   languageOptions: {
     globals: { ...globals.browser, ...globals.es2021 },
   },
+  ...solid,
   rules: {
     "no-console": "warn",
     "@typescript-eslint/no-explicit-any": "off",
-  },
-};
-
-/** @type { import("eslint").Linter.FlatConfig } */
-const solidConfig = {
-  files: ["src/**/*.{ts,tsx}"],
-  ...solid,
-  languageOptions: {
-    parser: tsParser,
-    parserOptions: {
-      project: "tsconfig.json",
-      tsconfigRootDir: __dirname,
-    },
   },
 };
 
@@ -86,6 +48,7 @@ const configConfig = {
   languageOptions: {
     globals: { ...globals.node },
   },
+  ...tseslint.configs.disableTypeChecked,
 };
 
 /** @type { import("eslint").Linter.FlatConfig } */
@@ -94,10 +57,16 @@ const scriptConfig = {
   languageOptions: {
     globals: { ...globals.node },
   },
+  ...tseslint.configs.disableTypeChecked,
+};
+
+const e2eConfig = {
+  files: ["e2e/**/*"],
+  ...tseslint.configs.disableTypeChecked,
 };
 
 /** @type { import("eslint").Linter.FlatConfig[] } */
-export default [
+export default tseslint.config(
   {
     files: ["**/*.{js,jsx,ts,tsx}"],
   },
@@ -105,12 +74,11 @@ export default [
     ignores: [".output/*", ".wxt/*", "playwright-report/*"],
   },
   js.configs.recommended,
-  baseConfig,
   ...tsConfigs,
-  ...srcTsConfigs,
+  baseConfig,
   srcConfig,
-  solidConfig,
   configConfig,
   scriptConfig,
+  e2eConfig,
   prettier,
-];
+);
