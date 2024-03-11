@@ -45,7 +45,7 @@
     "typescript": "^5.4.2",
     "typescript-eslint": "^7.1.1",
     "typescript-plugin-css-modules": "^5.1.0",
-    "vite": "^5.1.5",
+    "vite": "^5.1.6",
     "vite-plugin-solid": "^2.10.1",
     "wxt": "^0.16.6"
   },
