@@ -68,11 +68,11 @@ devDependencies:
     specifier: ^5.1.0
     version: 5.1.0(typescript@5.4.5)
   vite:
-    specifier: ^5.2.11
-    version: 5.2.11(@types/node@20.12.12)
+    specifier: ^5.2.12
+    version: 5.2.12(@types/node@20.12.12)
   vite-plugin-solid:
     specifier: ^2.10.2
-    version: 2.10.2(solid-js@1.8.17)(vite@5.2.11)
+    version: 2.10.2(solid-js@1.8.17)(vite@5.2.12)
   wxt:
     specifier: ^0.16.6
     version: 0.16.6(@types/node@20.12.12)
@@ -4919,7 +4919,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-solid@2.10.2(solid-js@1.8.17)(vite@5.2.11):
+  /vite-plugin-solid@2.10.2(solid-js@1.8.17)(vite@5.2.12):
     resolution: {integrity: sha512-AOEtwMe2baBSXMXdo+BUwECC8IFHcKS6WQV/1NEd+Q7vHPap5fmIhLcAzr+DUJ04/KHx/1UBU0l1/GWP+rMAPQ==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -4935,14 +4935,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.8.17
       solid-refresh: 0.6.3(solid-js@1.8.17)
-      vite: 5.2.11(@types/node@20.12.12)
-      vitefu: 0.2.5(vite@5.2.11)
+      vite: 5.2.12(@types/node@20.12.12)
+      vitefu: 0.2.5(vite@5.2.12)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.2.11(@types/node@20.12.12):
-    resolution: {integrity: sha512-HndV31LWW05i1BLPMUCE1B9E9GFbOu1MbenhS58FuK6owSO5qHm7GiCotrNY1YE5rMeQSFBGmT5ZaLEjFizgiQ==}
+  /vite@5.2.12(@types/node@20.12.12):
+    resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -4977,7 +4977,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@0.2.5(vite@5.2.11):
+  /vitefu@0.2.5(vite@5.2.12):
     resolution: {integrity: sha512-SgHtMLoqaeeGnd2evZ849ZbACbnwQCIwRH57t18FxcXoZop0uQu0uzlIhJBlF/eWVzuce0sHeqPcDo+evVcg8Q==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
@@ -4985,7 +4985,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.12(@types/node@20.12.12)
     dev: true
 
   /watchpack@2.4.0:
@@ -5182,7 +5182,7 @@ packages:
       publish-browser-extension: 2.1.2
       rollup-plugin-visualizer: 5.12.0
       unimport: 3.7.1
-      vite: 5.2.11(@types/node@20.12.12)
+      vite: 5.2.12(@types/node@20.12.12)
       web-ext-run: 0.2.0
       webextension-polyfill: 0.10.0
       zip-dir: 2.0.0
