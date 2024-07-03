@@ -56,7 +56,7 @@ devDependencies:
     specifier: ^1.4.1
     version: 1.4.1
   tsx:
-    specifier: ^4.16.1
+    specifier: ^4.16.2
     version: 4.16.2
   typescript:
     specifier: ^5.5.3
