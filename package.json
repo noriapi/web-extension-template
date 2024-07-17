@@ -49,7 +49,7 @@
     "vite-plugin-solid": "^2.10.2",
     "wxt": "^0.16.6"
   },
-  "packageManager": "pnpm@8.15.8",
+  "packageManager": "pnpm@8.15.9",
   "volta": {
     "node": "20.15.1"
   }
