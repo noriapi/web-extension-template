@@ -28,7 +28,7 @@
   "devDependencies": {
     "@commander-js/extra-typings": "^12.1.0",
     "@eslint/eslintrc": "^3.1.0",
-    "@playwright/test": "^1.47.2",
+    "@playwright/test": "^1.48.0",
     "@types/node": "^20.16.11",
     "@types/webextension-polyfill": "^0.10.7",
     "commander": "^12.1.0",
@@ -38,7 +38,7 @@
     "eslint-plugin-simple-import-sort": "^12.1.1",
     "eslint-plugin-solid": "^0.13.1",
     "globals": "^14.0.0",
-    "playwright": "^1.47.2",
+    "playwright": "^1.48.0",
     "prettier": "^3.3.3",
     "publish-browser-extension": "^1.4.1",
     "tsx": "^4.19.1",
