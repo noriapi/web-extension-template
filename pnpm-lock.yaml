@@ -68,11 +68,11 @@ devDependencies:
     specifier: ^5.1.0
     version: 5.1.0(typescript@5.7.3)
   vite:
-    specifier: ^5.4.11
-    version: 5.4.12(@types/node@20.17.10)
+    specifier: ^5.4.14
+    version: 5.4.14(@types/node@20.17.10)
   vite-plugin-solid:
     specifier: ^2.11.0
-    version: 2.11.0(solid-js@1.9.3)(vite@5.4.12)
+    version: 2.11.0(solid-js@1.9.3)(vite@5.4.14)
   wxt:
     specifier: ^0.16.6
     version: 0.16.6(@types/node@20.17.10)
@@ -1368,13 +1368,13 @@ packages:
   /@types/postcss-modules-local-by-default@4.0.2:
     resolution: {integrity: sha512-CtYCcD+L+trB3reJPny+bKWKMzPfxEyQpKIwit7kErnOexf5/faaGpkFy4I5AwbV4hp1sk7/aTg0tt0B67VkLQ==}
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.5.1
     dev: true
 
   /@types/postcss-modules-scope@3.0.4:
     resolution: {integrity: sha512-//ygSisVq9kVI0sqx3UPLzWIMCmtSVrzdljtuaAEJtGoGnpjBikZ2sXO5MpH9SnWX9HRfXxHifDAXcQjupWnIQ==}
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.5.1
     dev: true
 
   /@types/semver@7.5.6:
@@ -4268,7 +4268,7 @@ packages:
     dependencies:
       nanoid: 3.3.8
       picocolors: 1.1.1
-      source-map-js: 1.0.2
+      source-map-js: 1.2.1
     dev: true
 
   /postcss@8.5.1:
@@ -4605,7 +4605,7 @@ packages:
     dependencies:
       chokidar: 3.5.3
       immutable: 4.3.4
-      source-map-js: 1.0.2
+      source-map-js: 1.2.1
     dev: true
 
   /sax@1.3.0:
@@ -5227,7 +5227,7 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@5.4.12):
+  /vite-plugin-solid@2.11.0(solid-js@1.9.3)(vite@5.4.14):
     resolution: {integrity: sha512-G+NiwDj4EAeUE0wt3Ur9f+Lt9oMUuLd0FIxYuqwJSqRacKQRteCwUFzNy8zMEt88xWokngQhiFjfJMhjc1fDXw==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
@@ -5243,14 +5243,14 @@ packages:
       merge-anything: 5.1.7
       solid-js: 1.9.3
       solid-refresh: 0.6.3(solid-js@1.9.3)
-      vite: 5.4.12(@types/node@20.17.10)
-      vitefu: 1.0.4(vite@5.4.12)
+      vite: 5.4.14(@types/node@20.17.10)
+      vitefu: 1.0.4(vite@5.4.14)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@5.4.12(@types/node@20.17.10):
-    resolution: {integrity: sha512-KwUaKB27TvWwDJr1GjjWthLMATbGEbeWYZIbGZ5qFIsgPP3vWzLu4cVooqhm5/Z2SPDUMjyPVjTztm5tYKwQxA==}
+  /vite@5.4.14(@types/node@20.17.10):
+    resolution: {integrity: sha512-EK5cY7Q1D8JNhSaPKVK4pwBFvaTmZxEnoKXLG/U9gmdDcihQGNzFlgIvaxezFR4glP1LsuiedwMBqCXH3wZccA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
     peerDependencies:
@@ -5288,7 +5288,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitefu@1.0.4(vite@5.4.12):
+  /vitefu@1.0.4(vite@5.4.14):
     resolution: {integrity: sha512-y6zEE3PQf6uu/Mt6DTJ9ih+kyJLr4XcSgHR2zUkM8SWDhuixEJxfJ6CZGMHh1Ec3vPLoEA0IHU5oWzVqw8ulow==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
@@ -5296,7 +5296,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.4.12(@types/node@20.17.10)
+      vite: 5.4.14(@types/node@20.17.10)
     dev: true
 
   /watchpack@2.4.0:
@@ -5493,7 +5493,7 @@ packages:
       publish-browser-extension: 2.1.2
       rollup-plugin-visualizer: 5.12.0
       unimport: 3.7.1
-      vite: 5.4.12(@types/node@20.17.10)
+      vite: 5.4.14(@types/node@20.17.10)
       web-ext-run: 0.2.0
       webextension-polyfill: 0.10.0
       zip-dir: 2.0.0
