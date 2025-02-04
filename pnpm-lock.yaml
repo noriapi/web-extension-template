@@ -11,8 +11,8 @@ dependencies:
 
 devDependencies:
   '@commander-js/extra-typings':
-    specifier: ^12.1.0
-    version: 12.1.0(commander@12.1.0)
+    specifier: ^13.1.0
+    version: 13.1.0(commander@12.1.0)
   '@eslint/eslintrc':
     specifier: ^3.2.0
     version: 3.2.0
@@ -316,10 +316,10 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
-  /@commander-js/extra-typings@12.1.0(commander@12.1.0):
-    resolution: {integrity: sha512-wf/lwQvWAA0goIghcb91dQYpkLBcyhOhQNqG/VgWhnKzgt+UOMvra7EX/2fv70arm5RW+PUHoQHHDa6/p77Eqg==}
+  /@commander-js/extra-typings@13.1.0(commander@12.1.0):
+    resolution: {integrity: sha512-q5P52BYb1hwVWE6dtID7VvuJWrlfbCv4klj7BjUUOqMz4jbSZD4C9fJ9lRjL2jnBGTg+gDDlaXN51rkWcLk4fg==}
     peerDependencies:
-      commander: ~12.1.0
+      commander: ~13.1.0
     dependencies:
       commander: 12.1.0
     dev: true
