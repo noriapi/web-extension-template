@@ -68,7 +68,7 @@ devDependencies:
     specifier: ^5.1.0
     version: 5.1.0(typescript@5.7.3)
   vite:
-    specifier: ^5.4.14
+    specifier: ^5.4.19
     version: 5.4.19(@types/node@20.17.19)
   vite-plugin-solid:
     specifier: ^2.11.2
@@ -1385,13 +1385,13 @@ packages:
   /@types/postcss-modules-local-by-default@4.0.2:
     resolution: {integrity: sha512-CtYCcD+L+trB3reJPny+bKWKMzPfxEyQpKIwit7kErnOexf5/faaGpkFy4I5AwbV4hp1sk7/aTg0tt0B67VkLQ==}
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.5.3
     dev: true
 
   /@types/postcss-modules-scope@3.0.4:
     resolution: {integrity: sha512-//ygSisVq9kVI0sqx3UPLzWIMCmtSVrzdljtuaAEJtGoGnpjBikZ2sXO5MpH9SnWX9HRfXxHifDAXcQjupWnIQ==}
     dependencies:
-      postcss: 8.4.35
+      postcss: 8.5.3
     dev: true
 
   /@types/semver@7.5.6:
