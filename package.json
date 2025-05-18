@@ -41,7 +41,7 @@
     "playwright": "^1.50.1",
     "prettier": "^3.5.3",
     "publish-browser-extension": "^1.4.1",
-    "tsx": "^4.19.3",
+    "tsx": "^4.19.4",
     "typescript": "^5.7.3",
     "typescript-eslint": "^7.18.0",
     "typescript-plugin-css-modules": "^5.1.0",
