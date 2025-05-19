@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@commander-js/extra-typings": "^12.1.0",
-    "@eslint/eslintrc": "^3.2.0",
+    "@eslint/eslintrc": "^3.3.1",
     "@playwright/test": "^1.50.1",
     "@types/node": "^20.17.19",
     "@types/webextension-polyfill": "^0.10.7",
