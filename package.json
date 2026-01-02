@@ -29,7 +29,7 @@
     "@commander-js/extra-typings": "^12.1.0",
     "@eslint/eslintrc": "^3.3.3",
     "@playwright/test": "^1.52.0",
-    "@types/node": "^20.17.48",
+    "@types/node": "^20.19.27",
     "@types/webextension-polyfill": "^0.10.7",
     "commander": "^12.1.0",
     "env-cmd": "^10.1.0",
@@ -51,6 +51,6 @@
   },
   "packageManager": "pnpm@8.15.9",
   "volta": {
-    "node": "20.19.2"
+    "node": "20.19.6"
   }
 }
