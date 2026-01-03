@@ -31,7 +31,7 @@
     "@playwright/test": "^1.57.0",
     "@types/node": "^20.19.27",
     "@types/webextension-polyfill": "^0.10.7",
-    "commander": "^12.1.0",
+    "commander": "^14.0.2",
     "env-cmd": "^10.1.0",
     "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.1.2",
