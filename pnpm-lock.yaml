@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^20.19.27
     version: 20.19.27
   '@types/webextension-polyfill':
-    specifier: ^0.10.7
-    version: 0.10.7
+    specifier: ^0.12.4
+    version: 0.12.4
   commander:
     specifier: ^12.1.0
     version: 12.1.0
@@ -1427,6 +1427,10 @@ packages:
 
   /@types/webextension-polyfill@0.10.7:
     resolution: {integrity: sha512-10ql7A0qzBmFB+F+qAke/nP1PIonS0TXZAOMVOxEUsm+lGSW6uwVcISFNa0I4Oyj0884TZVWGGMIWeXOVSNFHw==}
+    dev: true
+
+  /@types/webextension-polyfill@0.12.4:
+    resolution: {integrity: sha512-wK8YdSI0pDiaehSLDIvtvonYmLwUUivg4Z6JCJO8rkyssMAG82cFJgwPK/V7NO61mJBLg/tXeoXQL8AFzpXZmQ==}
     dev: true
 
   /@types/yauzl@2.10.3:
