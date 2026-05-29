@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^5.4.21
     version: 5.4.21(@types/node@20.19.27)
   vite-plugin-solid:
-    specifier: ^2.11.10
-    version: 2.11.10(solid-js@1.9.10)(vite@5.4.21)
+    specifier: ^2.11.12
+    version: 2.11.12(solid-js@1.9.10)(vite@5.4.21)
   wxt:
     specifier: ^0.16.6
     version: 0.16.6(@types/node@20.19.27)
@@ -5290,12 +5290,12 @@ packages:
     resolution: {integrity: sha512-hGdgQozCsQJMyfK5urgFcWEqsSSrK63Awe0t/IMR0bZ0QMtnuaiHzThW81guu3qx9abLi99NEuiaN6P9gVYsNg==}
     dev: true
 
-  /vite-plugin-solid@2.11.10(solid-js@1.9.10)(vite@5.4.21):
-    resolution: {integrity: sha512-Yr1dQybmtDtDAHkii6hXuc1oVH9CPcS/Zb2jN/P36qqcrkNnVPsMTzQ06jyzFPFjj3U1IYKMVt/9ZqcwGCEbjw==}
+  /vite-plugin-solid@2.11.12(solid-js@1.9.10)(vite@5.4.21):
+    resolution: {integrity: sha512-FgjPcx2OwX9h6f28jli7A4bG7PP3te8uyakE5iqsmpq3Jqi1TWLgSroC9N6cMfGRU2zXsl4Q6ISvTr2VL0QHpA==}
     peerDependencies:
       '@testing-library/jest-dom': ^5.16.6 || ^5.17.0 || ^6.*
       solid-js: ^1.7.2
-      vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
+      vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     peerDependenciesMeta:
       '@testing-library/jest-dom':
         optional: true
