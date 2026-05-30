@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^1.57.0
     version: 1.57.0
   prettier:
-    specifier: ^3.7.4
-    version: 3.7.4
+    specifier: ^3.8.3
+    version: 3.8.3
   publish-browser-extension:
     specifier: ^1.4.1
     version: 1.4.1
@@ -4347,8 +4347,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /prettier@3.7.4:
-    resolution: {integrity: sha512-v6UNi1+3hSlVvv8fSaoUbggEM5VErKmmpGA7Pl3HF8V6uKY7rvClBOJlH6yNwQtfTueNkGVpOv/mtWL9L4bgRA==}
+  /prettier@3.8.3:
+    resolution: {integrity: sha512-7igPTM53cGHMW8xWuVTydi2KO233VFiTNyF5hLJqpilHfmn8C8gPf+PS7dUT64YcXFbiMGZxS9pCSxL/Dxm/Jw==}
     engines: {node: '>=14'}
     hasBin: true
     dev: true
